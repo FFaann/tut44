@@ -39,6 +39,15 @@ public class TestCalc
     }
 
 	public void testAdd() {
-		assertTrue(true);
+		int a=2;
+		int b=1;
+		int sum=a+b;
+		assertTrue(sum==3);
+	}
+	public void testSubtract() {
+		int a=2;
+		int b=1;
+		int sum=a+b;
+		assertTrue(sum==1);
 	}
 }
